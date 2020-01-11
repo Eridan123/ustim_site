@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-8 text-center heading-section ftco-animate">
+                    <h2 class="mb-4"><span>Наши новости</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                {% for post in posts %}
+                    <div class="col-md col-lg-12 ftco-animate">
+                        <div class="blog-entry">
+{#                            <div class="row">#}
+                                <a class="block-20 d-flex align-items-end"
+                                   style="background-image: url('media/{{ post.cover }}');">
+                                    <div class="meta-date text-center p-2">
+                                        <span class="day">{{ post.created_on | date:"d" }}</span>
+                                        <span class="mos">{{ post.created_on | date:"m" }}</span>
+                                        <span class="day">{{ post.created_on | date:"Y" }}</span>
+                                    </div>
+{#                                    <div class="col-md-10">#}
+{#                                        <img src="media/{{ post.cover }}" style="size: 200px" alt="Image">#}
+{#                                    </div>#}
+                                </a>
+{#                            </div>#}
+                            <div class="text bg-white p-4">
+                                <h2 class="heading"><a href="#">{{ post.title }}</a></h2>
+                                <span>{{ post.content }}</span>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endblock %}

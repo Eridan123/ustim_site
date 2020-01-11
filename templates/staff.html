@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({% static 'images/staff_1.JPG' %});">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-2 bread">Руководитель</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="/">Главная <i class="ion-ios-arrow-forward"></i></a></span> <span>Руководитель<i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ftco-section testimony-section">
+      <div class="container">
+        <div class="row ftco-animate justify-content-center">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel">
+              <div class="item">
+                <div class="testimony-wrap d-flex">
+                  <div class="user-img mr-4" style="background-image: url({% static 'images/staff.jpg' %})">
+                  </div>
+                  <div class="text ml-2">
+                  	<span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                    <p></p>
+                    <p class="name">ЖАПАРБЕКОВ  БЕКЗАТ  ТЕМИРКУЛОВИЧ</p>
+                    <span class="position">Генеральный директор</span>
+                      <p>Является магистром юриспруденции, основателем и руководителем компании. Работал в правоохранительных органах, начальником юридического отдела крупной промышленной компании и занимается преподавательской деятельностью. Опыт работы составляет более 10 лет.
+Мастер ораторского искусства, специалист бухгалтерского учета, автор философских идей и идеологических направлений, поэт, а так же мастер спорта. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}

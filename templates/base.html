@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" {% load static %}>
+  <head>
+    <title>{% block title %}ЮСТИМ - Юридическая компания{% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{%  static 'css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{%  static 'css/icomoon.css' %}">
+    <link rel="stylesheet" href="{%  static 'css/style.css' %}">
+  </head>
+  <body>
+  {% block navbar %}
+    <!-- START nav -->
+	  <div class="bg-top navbar-light">
+    	<div class="container">
+    		<div class="row no-gutters d-flex align-items-center align-items-stretch">
+    			<div class="col-md-4 d-flex align-items-center py-4">
+    				<a class="navbar-brand" href="/"><img src="{% static 'images/icon.jpg' %}" alt="" width="150" height="150"></a>
+    			</div>
+	    		<div class="col-lg-8 d-block">
+		    		<div class="row d-flex">
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-mail_outline"></span></div>
+					    	<div class="text">
+					    		<span>Email</span>
+						    	<span><a href="mailto:japarbekov@ustim.kg">japarbekov@ustim.kg</a></span>
+						    </div>
+					    </div>
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+						    <div class="text">
+						    	<span>Звонить</span>
+                                <span>+ 996 700 970 430</span>
+                                <a href="https://wa.me/996777455545"><span><img src="{% static 'images/whatsapp.png' %}" height="15" width="12" alt=""> 996 777 455 545</span></a>
+						    </div>
+					    </div>
+					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon icon-map-marker"></span></div>
+						    <div class="text">
+						    	<span>Адрес</span>
+                                <a href="https://go.2gis.com/8qdnm"><span>Бишкек, Уметалиева 39А</span></a>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+		  </div>
+    </div>
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-center px-4">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+	        	<li class="nav-item"><a href="/" class="nav-link">Главная</a></li>
+	        	<li class="nav-item"><a href="/about" class="nav-link">О нас</a></li>
+	        	<li class="nav-item"><a href="/service" class="nav-link">Наши услуги</a></li>
+	        	<li class="nav-item"><a href="/partners" class="nav-link">Партнеры</a></li>
+	            <li class="nav-item"><a href="/staff" class="nav-link">Руководитель</a></li>
+	            <li class="nav-item"><a href="/news" class="nav-link">Новости</a></li>
+	            <li class="nav-item"><a href="/contact" class="nav-link">Контакты</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+  {% endblock %}
+
+  {% block content %}
+  {% endblock %}
+
+    {% block footer %}
+    <section class="ftco-section testimony-section">
+        <footer class="ftco-footer ftco-bg-dark ftco-section">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Есть вопросы?</h2>
+                    <div class="block-23 mb-3">
+                      <ul>
+                        <li><span class="icon icon-map-marker"></span><span class="text"><a href="https://go.2gis.com/8qdnm">Бишкек, Уметалиева 39А</a></span></li>
+                        <li>
+                            <a href="#"><span class="icon icon-phone"></span>
+                                <span class="text">+996 700 970 430<br>+996 777 455 545<br> +996 312 884 383</span>
+                            </a>
+                        </li>
+                        <li><span class="icon icon-envelope"></span><a href="mailto:japarbekov@ustim.kg">japarbekov@ustim.kg</a></li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5 ml-md-4">
+                  <h2 class="ftco-heading-2">Ссылки</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="/"><span class="ion-ios-arrow-round-forward mr-2"></span>Главная</a></li>
+                    <li><a href="/about"><span class="ion-ios-arrow-round-forward mr-2"></span>О нас</a></li>
+                    <li><a href="/service"><span class="ion-ios-arrow-round-forward mr-2"></span>Наши услуги</a></li>
+                    <li><a href="/partners"><span class="ion-ios-arrow-round-forward mr-2"></span>Партнеры</a></li>
+                    <li><a href="/contact"><span class="ion-ios-arrow-round-forward mr-2"></span>Контакты</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2 mb-0">Свяжитесь с нами</h2>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                    <li class="ftco-animate"><a href="https://www.facebook.com/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F-%D0%AE%D1%81%D1%82%D0%B8%D0%BC-523445898181717"><span class="icon-facebook"></span></a></li>
+                    <li class="ftco-animate"><a href="https://wa.me/996777455545"><img src="{% static 'images/whatsapp.png' %}" height="38" width="35" alt=""></a></li>
+                  </ul>
+                </div>
+              </div>
+                <div class="col-md-6 col-lg-3">
+                <div class="ftco-footer-widget mb-5">
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4 dg-widget-link" href="http://2gis.kg/bishkek/firm/70000001032555223/center/74.581162,42.871833/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Бишкека</a><div class="dg-widget-link"><a href="http://2gis.kg/bishkek/center/74.581162,42.871833/zoom/16/routeTab/rsType/bus/to/74.581162,42.871833╎Юстим, многопрофильная компания?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Юстим, многопрофильная компания</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":50,"height":50,"borderColor":"#a3a3a3","pos":{"lat":42.871833,"lon":74.581162,"zoom":16},"opt":{"city":"bishkek"},"org":[{"id":"70000001032555223"}]});</script><noscript style="color:#c00;font-size:12px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+                    </div>
+                </div>
+          </div>
+            </div>
+              {% comment %}<div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>{% endcomment %}
+          </div>
+        </footer>
+        <!-- loader -->
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+      <script src="{% static 'js/popper.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+      <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+      <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+      <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+      <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+      <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+      <script src="{% static 'js/aos.js' %}"></script>
+      <script src="{% static 'js/jquery.animateNumber.min.js' %}"></script>
+      <script src="{% static 'js/scrollax.min.js' %}"></script>
+      <script src="{% static 'js/main.js' %}"></script>
+  </section>
+    {% endblock %}
+  </body>
+</html>

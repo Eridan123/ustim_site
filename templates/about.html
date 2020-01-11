@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({% static 'images/banner_about.jpeg' %});">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-2 bread">Юридическая компания «Юстим»</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="/">Главная <i class="ion-ios-arrow-forward"></i></a></span> <span>О нас<i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ftco-section ftco-no-pt ftc-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-12 wrap-about py-5 pr-md-4 ftco-animate">
+                        <p>Юридическая компания «Юстим» является прогрессивной, динамично развивающейся компанией,
+                        специализирующийся на оказании полного спектра юридических услуг. Компания укомплектована
+                        штатом высококвалифицированных юристов, специализирующихся в различных отраслях права.
+                        Основными клиентами Компании являются представители малого и среднего бизнеса, а также частные лица. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+{% endblock %}
