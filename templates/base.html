@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" {% load static %}>
   <head>
-    <title>{% block title %}ЮСТИМ - Юридическая компания{% endblock %}</title>
+      <link rel="shortcut icon" type="image/x-icon" href="{% static '/images/logo5.ico' %}" />
+    <title>ЮСТИМ - Юридическая компания</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -28,11 +29,18 @@
 	  <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
-    			<div class="col-md-4 d-flex align-items-center py-4">
+    			<div class="col-md-2 d-flex align-items-center py-4">
     				<a class="navbar-brand" href="/"><img src="{% static 'images/icon.jpg' %}" alt="" width="150" height="150"></a>
     			</div>
-	    		<div class="col-lg-8 d-block">
+	    		<div class="col-lg-10 d-block">
 		    		<div class="row d-flex">
+                        <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-call_made"></span></div>
+					    	<div class="text">
+					    		<span>График работы</span>
+                                <a href="#"><span>ПН-ПТ.  9:00-19:00</span></a>
+						    </div>
+					    </div>
 					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
 					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-mail_outline"></span></div>
 					    	<div class="text">
@@ -134,14 +142,14 @@
                 </div>
           </div>
             </div>
-              {% comment %}<div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>{% endcomment %}
+{#              <div class="row">#}
+{#          <div class="col-md-12 text-center">#}
+{##}
+{#            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->#}
+{#  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>#}
+{#  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>#}
+{#          </div>#}
+{#        </div>#}
           </div>
         </footer>
         <!-- loader -->
